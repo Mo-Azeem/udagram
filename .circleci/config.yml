@@ -36,5 +36,4 @@ workflows:
       - install
       - build
       - eb/deploy:
-          context: aws-creds
           environment-name: udagram-env
