@@ -20,3 +20,9 @@ jobs:
           name: Back-End Build
           command: |
             npm run backend:build
+      - run:
+        name: Back-End Deploy
+        command: |
+          cd udagram-api/www
+          eb use udagram-env
+          eb deploy
