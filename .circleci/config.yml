@@ -25,5 +25,5 @@ jobs:
           command: |
             cd udagram-api/www
             ls --all
-            eb use udagram-env --profile eb-cli
-            eb deploy --profile eb-cli
+            eb use udagram-env
+            eb deploy
