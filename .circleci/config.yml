@@ -24,11 +24,6 @@ jobs:
           name: Back-End Build
           command: |
             npm run backend:build
-      - run:
-          name: Back-End Deploy
-          command: |
-            eb use udagram-env
-            eb deploy
   eb/deploy:
     docker:
       - image: "cimg/base:stable"
