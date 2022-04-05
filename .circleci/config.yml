@@ -24,6 +24,6 @@ jobs:
           name: Back-End Deploy
           command: |
             cd udagram-api/www
-            cat .elasticbeanstalk/config.yml
+            eb init --region eu-central-1 --platform Node.js 16 running on 64bit Amazon Linux 2
             eb use udagram-env
             eb deploy
