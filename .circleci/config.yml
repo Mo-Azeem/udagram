@@ -30,7 +30,8 @@ jobs:
             eb use udagram-env
             eb deploy
   eb/deploy:
-    - image: "cimg/base:stable"
+    docker:
+      - image: "cimg/base:stable"
     steps:
       - checkout
       - eb/setup
