@@ -25,3 +25,9 @@ jobs:
           command: |
             eb use udagram-env
             eb deploy
+workflows:
+  elastic-beanstalk-workflow:
+    jobs:
+      - eb/deploy:
+          context: aws-creds
+          environment-name: udagram-env
