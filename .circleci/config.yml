@@ -23,6 +23,7 @@ jobs:
       - run:
           name: Back-End Deploy
           command: |
-            cd udagram-api && cd www
+            cd udagram-api/www
+            eb init
             eb use udagram-env
             eb deploy
