@@ -18,4 +18,9 @@ jobs:
           name: Front-End Build
           command: |
             npm run frontend:build
+      - run:
+          name: Front-End Deploy
+          command: |
+            cd udagram-frontend
+            aws s3 cp --recursive --acl public-read ./www s3://udagramfronty/
       
