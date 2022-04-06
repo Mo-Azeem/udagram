@@ -6,7 +6,7 @@ Front-End Link:
 http://udagramfronty.s3-website.eu-central-1.amazonaws.com/
 
 Back-End Link:
-http://udagram-env.eba-gqekmc95.eu-central-1.elasticbeanstalk.com/
+http://udagram-env.eba-bttdvmu3.eu-central-1.elasticbeanstalk.com/
 
 ## Getting Started
 
