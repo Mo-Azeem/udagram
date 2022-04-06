@@ -1,4 +1,4 @@
-cd udagram-api/www
+cd www
 eb init udagram-api --region eu-central-1 --platform "Node.js 16 running on 64bit Amazon Linux 2"
 eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
 eb setenv POSTGRES_PASSWORD=$POSTGRES_PASSWORD
