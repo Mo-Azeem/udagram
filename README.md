@@ -1,6 +1,12 @@
 # Udagram
 
-This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+Udagram is a fairly simple application that includes all the major components of a Full-Stack web application.
+
+Front-End Link:
+http://udagramfronty.s3-website.eu-central-1.amazonaws.com/
+
+Back-End Link:
+http://udagram-env.eba-gqekmc95.eu-central-1.elasticbeanstalk.com/
 
 ## Getting Started
 
@@ -9,7 +15,7 @@ This application is provided to you as an alternative starter project if you do 
 1. Open a terminal and navigate to the root of the repo
 1. follow the instructions in the installation step
 
-The project can run but is missing some information to connect to the database and storage service. These will be setup during the course of the project
+Keep in mind that you will need to configure the database connection variables on your own.
 
 ### Dependencies
 
