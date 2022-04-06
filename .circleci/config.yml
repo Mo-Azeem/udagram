@@ -36,13 +36,12 @@ jobs:
       - run:
           name: Back-End Deploy
           command: |
-            cd udagram-api/www
-            eb init udagram-api --region eu-central-1 --platform "Node.js 16 running on 64bit Amazon Linux 2"
-            eb deploy udagram-env
+            npm run backend:deploy
 workflows:
   build-deploy:
     jobs:
       - build:
         filters:
           branches:
-            only: main/master
+            only: 
+              - master
